@@ -29,3 +29,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## Install Angular Material
 
 ng add @angular/material
+
+## Install Flex-layout
+
+npm i -s @angular/flex-layout @angular/cdk
