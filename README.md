@@ -33,3 +33,26 @@ ng add @angular/material
 ## Install Flex-layout
 
 npm i -s @angular/flex-layout @angular/cdk
+
+## Deploy to Firebase
+1. Install Firebase CLI
+  npm install -g firebase-tools
+
+2. Initialise your project
+  Sign in to Google -- >firebase login
+  Initiate your project -->firebase init
+
+3. Answers to Firebase CLI questions:
+  Q: Which Firebase CLI features do you want to set up for this folder?
+     Press space to select required feature then enters to confirm your choices.
+  Q: Select a default Firebase project for this directory:
+    Select whichever app you have created.
+  Q: What file should be used for Database Rules? (database.rules.json)
+    Press enter to continue with database.rules.json
+  Q: What do you want to use as your public directory? (public) 
+    dist/your-project-name
+
+4. Create Production Build using the Ahead-of-Time (AOT) Compilation
+  ng build --prod --aot
+
+5. Deploy to Firebase Hosting -->firebase deploy
