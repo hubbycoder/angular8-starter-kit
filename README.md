@@ -43,13 +43,17 @@ npm i -s @angular/flex-layout @angular/cdk
   Initiate your project -->firebase init
 
 3. Answers to Firebase CLI questions:
-  Q: Which Firebase CLI features do you want to set up for this folder?
+  
+  : Which Firebase CLI features do you want to set up for this folder?
      Press space to select required feature then enters to confirm your choices.
-  Q: Select a default Firebase project for this directory:
+  
+  : Select a default Firebase project for this directory:
     Select whichever app you have created.
-  Q: What file should be used for Database Rules? (database.rules.json)
+  
+  : What file should be used for Database Rules? (database.rules.json)
     Press enter to continue with database.rules.json
-  Q: What do you want to use as your public directory? (public) 
+  
+  : What do you want to use as your public directory? (public) 
     dist/your-project-name
 
 4. Create Production Build using the Ahead-of-Time (AOT) Compilation
