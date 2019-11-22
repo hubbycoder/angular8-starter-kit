@@ -6,13 +6,13 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {FlexLayoutModule} from '@angular/flex-layout';
 import {
-  MatIconModule, MatButtonModule, MatSidenavModule, MatToolbarModule
+  MatIconModule, MatButtonModule, MatSidenavModule, MatToolbarModule, MatListModule
 } from '@angular/material';
 
 @NgModule({
   imports:      [
      BrowserModule, FormsModule, FlexLayoutModule, BrowserAnimationsModule,
-     MatIconModule, MatButtonModule, MatSidenavModule, MatToolbarModule
+     MatIconModule, MatButtonModule, MatSidenavModule, MatToolbarModule, MatListModule
    ],
   declarations: [ AppComponent ],
   bootstrap:    [ AppComponent ]
