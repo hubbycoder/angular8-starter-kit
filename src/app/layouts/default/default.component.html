@@ -1,0 +1,17 @@
+<div fxLayout="row wrap" fxLayoutAlign="center center" class="layout-wrapper">
+  <div fxFlex="80%" fxFlex.lt-md="100%" class="flex-wrapper">
+
+    <app-header (toggleSideBarForMe)="sideBarToggler($event)"></app-header>
+
+    <mat-drawer-container>
+      <mat-drawer mode="side" [opened]="sideBarOpen">
+        <app-sidebar></app-sidebar>
+      </mat-drawer>
+      <mat-drawer-content>
+        <router-outlet></router-outlet>
+      </mat-drawer-content>
+    </mat-drawer-container>
+
+    <app-footer></app-footer>
+  </div>
+</div>

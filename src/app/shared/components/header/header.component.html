@@ -1,0 +1,35 @@
+<mat-toolbar color="primary">
+    <mat-toolbar-row>
+        <button mat-icon-button (click)="toggleSideBar()">
+            <mat-icon>menu</mat-icon>
+        </button>
+
+        <span>
+          <a mat-button routerLink="" routerLinkActive="active">
+            <mat-icon>home</mat-icon>Angular 8
+        </a>
+        </span>
+
+        <div fxFlex fxLayout="row" fxLayoutAlign="flex-end">
+            <ul fxLayout="row">
+                <li style="margin-right: 50px;">
+                    <button mat-icon-button>
+                        <mat-icon>settings</mat-icon>
+                        Settings
+                    </button>
+                </li>
+                <li style="margin-right: 10px;">
+                    <button mat-icon-button>
+                        <mat-icon>help_outline</mat-icon>
+                        Help
+                    </button>
+                </li>
+                <li>
+                    <a mat-button routerLink="/login" routerLinkActive="active">
+                        <mat-icon>person_outline</mat-icon>Log in
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </mat-toolbar-row>
+</mat-toolbar>
